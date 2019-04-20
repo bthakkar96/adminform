@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="admin-2columns-left" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
+    <body>
+       <!-- <referenceContainer name="left">
+            <block class="Feedbackform\Test\Block\Adminhtml\Post\New2feed\Tabs" name="feed.edit.tabs"/>
+        </referenceContainer>-->
+        <referenceContainer name="content">
+            <block class="Feedbackform\Test\Block\Adminhtml\Post\New2feed" name="new22_feed22"/>
+        </referenceContainer>
+    </body>
+</page>

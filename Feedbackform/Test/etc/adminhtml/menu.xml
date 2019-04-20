@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Feedbackform_Test::manager" title="Iverve Bookings" module="Feedbackform_Test" sortOrder="80" resource="Feedbackform_Test::manager"/>
+        <add id="Feedbackform_Test::add_row" title="Customer Data" module="Feedbackform_Test" sortOrder="20" parent="Feedbackform_Test::manager" action="feed/post/index" resource="Feedbackform_Test::add_row"/>
+    </menu>
+</config>
+
